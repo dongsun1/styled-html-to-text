@@ -1,0 +1,17 @@
+{
+  "name": "styled-html-to-text",
+  "version": "1.0.0",
+  "description": "스타일이 붙은 HTML 을 React Native <Text> 가 받을 수 있는 토큰 문자열로 바꾼다",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "vitest": "^3.0.0"
+  },
+  "license": "MIT"
+}
